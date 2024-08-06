@@ -122,7 +122,7 @@
     "refresh_token": "YOUR_REFRESH_TOKEN"
 }
 ```
-#### 3. Accessing endpoint via Both Role (STUDENT , ADMIN) access_token
+#### 3. Accessing endpoint for Both Role (STUDENT , ADMIN) via access_token or refresh_roken
 + Endpoint : `http://localhost:8080/api/demo-student`
 + Method : GET
 + Authorization : Bearer Token
@@ -130,7 +130,7 @@
 ```
 Hello from secured student endpoints
 ```
-#### 4. Accessing endpoint via ADMIN Role access_token
+#### 4. Accessing endpoint for ADMIN Role via access_token or refresh_roken
 + Endpoint : `http://localhost:8080/api/demo-admin`
 + Method : GET
 + Authorization : Bearer Token
